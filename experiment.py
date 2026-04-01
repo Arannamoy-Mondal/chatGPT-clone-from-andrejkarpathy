@@ -3,6 +3,7 @@ import requests
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
+import mlflow
 
 # %%
 device='cuda' if torch.cuda.is_available() else 'cpu'
