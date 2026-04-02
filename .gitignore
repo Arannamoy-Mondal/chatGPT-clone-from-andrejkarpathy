@@ -1,2 +1,4 @@
 *.pkl
 *.pth
+artifacts
+mlfow
